@@ -36,3 +36,26 @@
     padding-bottom: 20px;
     font-size: 18px;
 }
+
+.body
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+h3
+{
+    color: #5c94ce;
+    margin: 0%;
+}
+
+p
+{
+    margin-top: 0%;
+}
+
+ul
+{
+    margin-top: 0%;
+}
