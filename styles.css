@@ -1,12 +1,10 @@
-.sheet
-{
+.sheet {
     width: 768px;
     border: 1px outset black;
     margin: auto;
 }
 
-.name
-{
+.name {
     color: white;
     font-size: 13px;
     height: 64px;
@@ -14,99 +12,91 @@
     font-family: 'Montserrat';
     background-color: #0061b1;
     padding-left: 30px;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
-.body
-{
-    padding-left: 30px;
+.body {
+    padding-left: 20px;
     padding-right: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
-.profile
-{
+.profile {
     margin-top: 0%;
+    margin-bottom: 1%;
 }
 
-.columnContainer
-{
+.columnContainer {
     overflow: hidden;
 }
 
-.columnContainer .leftColumn
-{
-    width: 75%;
-    float: left;
-    padding-top: 10px;
-    border-top: 1px outset #9c9c9c;
-    border-right: 1px outset #9c9c9c;
+    .columnContainer .leftColumn {
+        width: 80%;
+        float: left;
+        padding-top: 10px;
+        border-top: 1px outset #9c9c9c;
+        border-right: 1px outset #9c9c9c;
+    }
+
+    .columnContainer .rightColumn {
+        width: 18%;
+        float: left;
+        padding-top: 10px;
+        border-top: 1px outset #9c9c9c;
+        padding-left: 10px;
+    }
+
+.skills {
+    line-height: 1.15;
+    font-size: 11.5px;
+    margin-block-start: 0px;
 }
 
-.columnContainer .rightColumn
-{
-    width: 20%;
-    float: left;
-    padding-top: 10px;
-    border-top: 1px outset #9c9c9c;
-    padding-left: 10px;
-}
-
-.skills
-{
-    line-height: 1.5;
-    font-size: 13px;
-}
-
-.education
-{
+.education {
     line-height: 1;
     font-size: 13px;
     margin-bottom: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
-p
-{
+p {
     font-size: 11px;
 }
 
-h3
-{
+h3 {
     font-size: 32px;
     margin-top: 0%;
     margin-bottom: 0%;
 }
 
-h4
-{
+h4 {
     margin-top: 0%;
     margin-bottom: 0%;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
-h5
-{
+h5 {
     margin-top: 0%;
     margin-bottom: 0%;
     font-weight: normal;
     font-size: 14px;
 }
 
-h6
-{
+h6 {
     margin-top: 0%;
     margin-bottom: 0%;
     color: #a9a9a9;
     font-weight: normal;
 }
 
-a
-{
-    font-size: 12px;
+a {
+    font-size: 11px;
 }
 
-ul
-{
-    font-size: 12px;
+ul {
+    font-size: 11.5px;
     margin-top: 0%;
+    margin-right: 10px;
 }
